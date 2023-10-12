@@ -1,0 +1,13 @@
+{
+  "plantform": "Linux-6.2.0-34-generic-x86_64-with-glibc2.17",
+  "system": "Linux",
+  "python_version": "3.8.18",
+  "architecture": "64bit",
+  "processor": "x86_64",
+  "cpu_logical_count": 36,
+  "cpu_count": 18,
+  "total_memory": 1349496.25856,
+  "active_memory": 23021.1584,
+  "available_memory": 1279369.8304,
+  "total_swap_memory": 20510.1056
+}
