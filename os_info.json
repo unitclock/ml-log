@@ -1,15 +1,15 @@
 {
-  "plantform": "Linux-6.2.0-34-generic-x86_64-with-glibc2.35",
+  "plantform": "Linux-6.2.0-32-generic-x86_64-with-glibc2.35",
   "system": "Linux",
-  "python_version": "3.10.13",
+  "python_version": "3.10.0",
   "architecture": "64bit",
   "processor": "x86_64",
-  "uname": "uname_result(system='Linux', node='lord', release='6.2.0-34-generic', version='#34~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  7 13:12:03 UTC 2', machine='x86_64')",
+  "uname": "uname_result(system='Linux', node='lord', release='6.2.0-32-generic', version='#32~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Fri Aug 18 10:40:13 UTC 2', machine='x86_64')",
   "cpu_logical_count": 8,
-  "cpu_count": 8,
-  "total_memory": 328177.99168,
-  "active_memory": 10930.50368,
-  "available_memory": 298946.60096,
-  "total_swap_memory": 20510.1056,
-  "nvidia_gpu_info": "[]"
+  "cpu_count": 4,
+  "total_memory": 166301.4912,
+  "active_memory": 36358.92224,
+  "available_memory": 119702.9376,
+  "total_swap_memory": 10234.0608,
+  "nvidia_gpu_info": "['NVIDIA GeForce RTX 2060']"
 }
