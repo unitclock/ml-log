@@ -1,15 +1,1 @@
-{
-  "plantform": "Linux-6.2.0-34-generic-x86_64-with-glibc2.17",
-  "system": "Linux",
-  "python_version": "3.8.18",
-  "architecture": "64bit",
-  "processor": "x86_64",
-  "uname": "uname_result(system='Linux', node='lord', release='6.2.0-34-generic', version='#34~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Sep  7 13:12:03 UTC 2', machine='x86_64', processor='x86_64')",
-  "cpu_logical_count": 36,
-  "cpu_count": 18,
-  "total_memory": 1349496.09472,
-  "active_memory": 14608.46592,
-  "available_memory": 1303770.3168,
-  "total_swap_memory": 20510.1056,
-  "nvidia_gpu_info": "['NVIDIA GeForce GTX 1080 Ti', 'NVIDIA GeForce GTX 1080 Ti']"
-}
+null
