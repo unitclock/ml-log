@@ -1,14 +1,16 @@
-active_memory: 12275.38432
+active_memory: 29986.69312
 architecture: 64bit
-available_memory: 128058.49088
-cpu_count: 4
-cpu_logical_count: 8
+available_memory: 1262332.23168
+cpu_count: 18
+cpu_logical_count: 36
 nvidia_gpu_info: None
-platform: Linux-6.2.0-34-generic-x86_64-with-glibc2.35
+platform: Linux-6.2.0-34-generic-x86_64-with-glibc2.17
 processor: x86_64
-python_version: 3.10.0
+python_path: /home/lord/miniconda3/envs/log/bin/python
+python_version: 3.8.18
+run_path: /home/lord/Desktop/work_project/logger
 system: Linux
-total_memory: 166301.40928
-total_swap_memory: 10234.0608
+total_memory: 1349496.05376
+total_swap_memory: 20510.1056
 uname: uname_result(system='Linux', node='lord', release='6.2.0-34-generic', version='#34~22.04.1-Ubuntu
-  SMP PREEMPT_DYNAMIC Thu Sep  7 13:12:03 UTC 2', machine='x86_64')
+  SMP PREEMPT_DYNAMIC Thu Sep  7 13:12:03 UTC 2', machine='x86_64', processor='x86_64')
