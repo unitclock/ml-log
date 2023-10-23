@@ -2,3 +2,4 @@ run*
 code
 .access_token
 .history
+.location
