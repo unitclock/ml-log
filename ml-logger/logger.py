@@ -21,7 +21,7 @@ def NewLogger(conf:dict,info:dict):
     log = Logger(config=conf)
     log.Start(info=info)
     return log
-        
+
 
 def single(cls):
     _instance = {}
