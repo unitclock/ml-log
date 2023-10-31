@@ -4,3 +4,5 @@ class Quene():
         pass
     def Insert()->None:
         pass
+    def Pop() ->None:
+        pass

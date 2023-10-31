@@ -12,6 +12,6 @@ class Clinet():
     def NoticeExpStop(self)->None:
         pass
     
-def NewClient(info)->Clinet:
+def NewClientConn(info)->Clinet:
     
     return Clinet()
