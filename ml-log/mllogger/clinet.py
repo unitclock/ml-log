@@ -1,6 +1,6 @@
 import requests
 import time
-from path import NewPathManager
+from .path import NewStoragePath,GetStoragePath,NewRunPath,GetRunPath
 
 class Clinet(object):
     def __init__(self,config:dict,host="127.0.0.1")->None:
@@ -29,8 +29,8 @@ class Clinet(object):
         send_data["experimentName"] = self.__config["experiment_name"]
         if "repository_id" in self.__config:
             send_data["repositoryId"] = self.__config["repository_id"]
-        msg = self.__api(url=self.__api_load_save_path,data=send_data)
-        print(f"Client Response: {msg}")
+        resp = self.__api(url=self.__api_load_save_path,data=send_data)
+        NewStoragePath(resp["data"]+"/"+self.__config["experiment_id"])
         return
     def NoticeExpStart(self)->None:
         send_data = {
@@ -40,8 +40,8 @@ class Clinet(object):
         self.__api(url=self.__api_notice_experiment,data=send_data)
         return
     def NoticeRunStart(self)->None:
-        pm = NewPathManager()
-        run_path = pm.GetRunPath()
+        NewRunPath()
+        run_path = GetRunPath()
         send_data ={
             "experimentId":self.__config["experiment_id"],
             "runName": run_path,
@@ -50,8 +50,7 @@ class Clinet(object):
         self.__api(url=self.__api_notice_run,data=send_data)
         return
     def NoticeRunStop(self)->None:
-        pm = NewPathManager()
-        run_path = pm.GetRunPath()
+        run_path = GetRunPath()
         send_data ={
             "experimentId":self.__config["experiment_id"],
             "runName": run_path,
@@ -69,4 +68,4 @@ class Clinet(object):
     
 def NewClientConn(config:dict)->Clinet:
     
-    return Clinet()
+    return Clinet(config=config)
